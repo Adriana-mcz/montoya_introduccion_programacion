@@ -21,9 +21,9 @@ def registrar_empleados():
                         puntajes.append(valor)
                         break
                     else:
-                        print("⚠️ El puntaje debe estar entre 0 y 100.")
+                        print("El puntaje debe estar entre 0 y 100.")
                 except ValueError:
-                    print("⚠️ Ingrese un número válido.")
+                    print("Ingrese un número válido.")
         
         empleados.append({
             "codigo": codigo,
